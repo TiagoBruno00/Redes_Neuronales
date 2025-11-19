@@ -6,7 +6,7 @@ Análisis experimental de arquitecturas de Redes Neuronales y la **Optimización
 
 Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y Convolucionales) y **Clasificadores** sobre el conjunto de datos **Fashion-MNIST**. El objetivo principal es reflexionar sobre la elección de **hiperparámetros** (épocas, tamaño de lote, tasa de aprendizaje, dropout) y su impacto en el rendimiento.
 
-### 🎯 Conclusiones Clave
+### Conclusiones Clave
 
 * **Superioridad Convolucional:** Las Redes Convolucionales demostraron ser **superiores** a las *feed-forward* (Lineales) para este conjunto de datos, tanto para comprimir y reconstruir imágenes como para clasificarlas.
 * **Reconstrucción (Autoencoders):** Aumentar el tamaño de la capa oculta mejoró la reconstrucción. El modelo **Raschka (n=128)** alcanzó un error comparable al Lineal (n=512) pero en solo **14 épocas** (vs. 60 épocas).
@@ -16,7 +16,7 @@ Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y
 * **Estrategias de Regularización:** El *Dropout* fue más efectivo en la red Lineal, mientras que el *Pooling* ayudó a la generalización en las convolucionales.
 * **Clasificación:** Se aplicó **Feature Extraction** (Transfer Learning) sobre el clasificador "Consigna" para mitigar la dependencia de valores iniciales, obteniendo mejores resultados.
 
-## 🛠️ Modelos Implementados
+## Modelos Implementados
 
 | Modelo | Tipo | Capa Oculta | Épocas | Tasa de Aprendizaje | Dropout |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -24,7 +24,7 @@ Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y
 | **Autoencoder Raschka** | Convolucional | 128 | 14 | 0.0005 | 0 |
 | **Clasificador Consigna FE** | Convolucional | 128 | 26 | 0.0005 | 0.8 |
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 
 * `Tiago_Bruno_tfi_2023.pdf` (trabajo completo)
 * `autoencoder_lineal.py`
