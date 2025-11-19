@@ -2,7 +2,7 @@
 
 Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y Convolucionales) y **Clasificadores** sobre el conjunto de datos **Fashion-MNIST**. El objetivo principal es reflexionar sobre la elección de **hiperparámetros** (épocas, tamaño de lote, tasa de aprendizaje, dropout) y su impacto en el rendimiento.
 
-### Conclusiones Clave
+## Conclusiones Clave
 
 * **Superioridad Convolucional:** Las Redes Convolucionales demostraron ser **superiores** a las *feed-forward* (Lineales) para este conjunto de datos, tanto para comprimir y reconstruir imágenes como para clasificarlas.
 * **Reconstrucción (Autoencoders):** Aumentar el tamaño de la capa oculta mejoró la reconstrucción. El modelo **Raschka (n=128)** alcanzó un error comparable al Lineal (n=512) pero en solo **14 épocas** (vs. 60 épocas).
