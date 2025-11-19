@@ -23,4 +23,4 @@ Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y
 ## Estructura del Repositorio
 
 * El archivo `Tiago_Bruno_tfi_2023.pdf` contiene el trabajo completo
-* En la rama Código están disponibles las notebookes de google colab 
+* En la rama Código están disponibles las *notebooks* de google colab 
