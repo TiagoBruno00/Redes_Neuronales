@@ -1,11 +1,8 @@
-# 🧠 Autoencoders y Clasificadores Convolucionales sobre Fashion-MNIST
+# Autoencoders y Clasificadores Convolucionales sobre Fashion-MNIST
 
 Análisis experimental de arquitecturas de Redes Neuronales y la **Optimización de Hiperparámetros** para tareas de reconstrucción y clasificación de imágenes.
 
----
-[Aquí puedes insertar una imagen como la Figura 1 (esquema del autoencoder) para hacerlo visualmente atractivo. Si la subes a GitHub, el enlace será local.]
-
-## 📝 Resumen del Proyecto
+## Resumen
 
 Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y Convolucionales) y **Clasificadores** sobre el conjunto de datos **Fashion-MNIST**. El objetivo principal es reflexionar sobre la elección de **hiperparámetros** (épocas, tamaño de lote, tasa de aprendizaje, dropout) y su impacto en el rendimiento.
 
@@ -29,19 +26,9 @@ Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y
 
 ## 📁 Estructura del Repositorio
 
-Asegúrate de que tu repositorio contenga los siguientes archivos para que el proyecto esté completo:
+* `Tiago_Bruno_tfi_2023.pdf` (trabajo completo)
+* `autoencoder_lineal.py`
+* `autoencoder_consigna.py`
+* `autoencoder_raschka.py`
+* `clasificador.py`
 
-* `Tiago_Bruno_tfi_2023.pdf` (Tu informe de investigación)
-* `autoencoder_lineal.py` (O el nombre del archivo con tu autoencoder lineal)
-* `autoencoder_consigna.py` (O el nombre del archivo con tu autoencoder convolucional 'consigna')
-* `autoencoder_raschka.py` (O el nombre del archivo con tu autoencoder convolucional 'raschka')
-* `clasificador.py` (O el archivo que contiene el código de tus clasificadores)
-* `requirements.txt` (Una lista de las librerías necesarias: `torch`, `numpy`, `matplotlib`, etc.)
-
----
-## 🚀 Cómo Ejecutar el Código (Pendiente de tu código)
-
-[Una vez que subas los archivos de código, puedes indicar los pasos exactos aquí, por ejemplo:]
-1. Clonar el repositorio: `git clone https://github.com/TiagoBruno00/Redes_Neuronales.git`
-2. Instalar dependencias: `pip install -r requirements.txt`
-3. Ejecutar el entrenamiento del clasificador: `python clasificador.py`
