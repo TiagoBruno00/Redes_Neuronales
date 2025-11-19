@@ -22,9 +22,5 @@ Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y
 
 ## Estructura del Repositorio
 
-* `Tiago_Bruno_tfi_2023.pdf` (trabajo completo)
-* `autoencoder_lineal.py`
-* `autoencoder_consigna.py`
-* `autoencoder_raschka.py`
-* `clasificador.py`
-
+* El archivo `Tiago_Bruno_tfi_2023.pdf` contiene el trabajo completo
+* En la rama Código están disponibles las notebookes de google colab 
