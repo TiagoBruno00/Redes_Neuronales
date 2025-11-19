@@ -1,9 +1,5 @@
 # Autoencoders y Clasificadores Convolucionales sobre Fashion-MNIST
 
-Análisis experimental de arquitecturas de Redes Neuronales y la **Optimización de Hiperparámetros** para tareas de reconstrucción y clasificación de imágenes.
-
-## Resumen
-
 Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y Convolucionales) y **Clasificadores** sobre el conjunto de datos **Fashion-MNIST**. El objetivo principal es reflexionar sobre la elección de **hiperparámetros** (épocas, tamaño de lote, tasa de aprendizaje, dropout) y su impacto en el rendimiento.
 
 ### Conclusiones Clave
