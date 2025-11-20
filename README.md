@@ -14,11 +14,12 @@ Este proyecto implementa y compara distintos tipos de **Autoencoders** (Lineal y
 
 ## Modelos Implementados
 
-| Modelo | Tipo | Capa Oculta | Épocas | Tasa de Aprendizaje | Dropout |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Autoencoder Lineal** | Feed-Forward | 512 | 60 | 0.001 | 0.1 |
-| **Autoencoder Raschka** | Convolucional | 128 | 14 | 0.0005 | 0 |
-| **Clasificador Consigna FE** | Convolucional | 128 | 26 | 0.0005 | 0.8 |
+| Modelo | Tipo | Capa Oculta | Épocas | Lote | Tasa de Aprendizaje | Dropout |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Autoencoder Lineal** | Feed-Forward | 512 | 60 | 1000 | 0.001 | 0.1 |
+| **Autoencoder Raschka** | Convolucional | 128 | 14 | 32 | 0.0005 | 0 |
+| **Clasificador Consigna FE** | Convolucional | 128 | 20 | 32 | 0.0005 | 0.8 |
+| **Clasificador Raschka** | Convolucional | 10 | 15 | 40 | 0.0007 | 0.8 |
 
 ## Estructura del Repositorio
 
